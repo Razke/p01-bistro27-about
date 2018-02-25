@@ -1,6 +1,8 @@
 <resources>
     <string name="title">Bistro27 Pitesti</string>
     <string name="description">Bistro27 is the place in which exceptional gastronomy meets the perfect details for creating a comfortable safe haven filled with savor.</string>
+    <string name="description_cont">Whether we\'re talking about business meetings, where our services meet the highest standards of exigency, or about the romantic dinner for which we assure the ideal setting, at Bistro27 we know that the art of cooking comes from the passion of satisfying our guests."</string>
+    <string name="description_fin">Award winning recipes, noble selection of wines in the atmosphere of a veritable bistro.</string>
     <string name="address">Bulevardul I. C. Bratianu, Pitesti"</string>
     <string name="address_url">https://www.google.ro/maps/place/Bistro+27/@44.8584483,24.8731265,17z/data=!4m5!3m4!1s0x40b2bc87191da427:0xe0a09430578384f4!8m2!3d44.858287!4d24.873475?hl=en</string>
     <string name="website_url">https://bistro27.ro/</string>

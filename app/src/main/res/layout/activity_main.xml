@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -37,8 +37,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/descrPadding"
-                android:paddingBottom="0dp"
                 android:text="@string/description"
+                android:textColor="@color/textMain"
+                android:textSize="@dimen/textMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/descrPadding"
+                android:paddingLeft="@dimen/descrPadding"
+                android:paddingRight="@dimen/descrPadding"
+                android:text="@string/description_cont"
+                android:textColor="@color/textMain"
+                android:textSize="@dimen/textMedium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/descrPadding"
+                android:paddingLeft="@dimen/descrPadding"
+                android:paddingRight="@dimen/descrPadding"
+                android:text="@string/description_fin"
                 android:textColor="@color/textMain"
                 android:textSize="@dimen/textMedium" />
 
@@ -60,7 +79,7 @@
                 android:tag="@string/address_url"
                 android:text="@string/address"
                 android:textAllCaps="@string/buttonCaps"
-                android:textColor="@color/textMain"
+                android:textColor="@color/buttonsText"
                 android:textSize="@dimen/textSmall" />
 
             <View
@@ -82,7 +101,7 @@
                 android:tag="@string/website_url"
                 android:text="@string/website_url"
                 android:textAllCaps="@string/buttonCaps"
-                android:textColor="@color/textMain"
+                android:textColor="@color/buttonsText"
                 android:textSize="@dimen/textSmall" />
 
             <View
@@ -103,7 +122,7 @@
                 android:paddingRight="@dimen/iconPadding"
                 android:text="@string/phone"
                 android:textAllCaps="@string/buttonCaps"
-                android:textColor="@color/textMain"
+                android:textColor="@color/buttonsText"
                 android:textSize="@dimen/textSmall" />
 
             <View
@@ -124,7 +143,7 @@
                 android:paddingRight="@dimen/iconPadding"
                 android:text="@string/email"
                 android:textAllCaps="@string/buttonCaps"
-                android:textColor="@color/textMain"
+                android:textColor="@color/buttonsText"
                 android:textSize="@dimen/textSmall" />
 
             <View
