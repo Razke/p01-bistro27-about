@@ -35,4 +35,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void dialPhone(View view) {
+
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_DIAL);
+
+        startActivity(intent);
+        Intent callIntent = new Intent(Intent.ACTION_DIAL);
+        callIntent.setData(Uri.parse("tel:+40727828501"));
+        startActivity(callIntent);
+    }
+
+
 }
