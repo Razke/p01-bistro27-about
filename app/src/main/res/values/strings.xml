@@ -5,4 +5,5 @@
     <string name="address_url">https://www.google.ro/maps/place/Bistro+27/@44.8584483,24.8731265,17z/data=!4m5!3m4!1s0x40b2bc87191da427:0xe0a09430578384f4!8m2!3d44.858287!4d24.873475?hl=en</string>
     <string name="website_url">https://bistro27.ro/</string>
     <string name="phone">+40 727 828 501</string>
+    <string name="email">bistro27pitesti@gmail.com</string>
 </resources>

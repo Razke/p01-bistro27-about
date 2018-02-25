@@ -46,5 +46,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(callIntent);
     }
 
+    public void writeEmail(View view) {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("message/rfc822");
+        intent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"bistro27pitesti@gmail.com"});
+
+        startActivity(Intent.createChooser(intent, "Send Email"));
+    }
+
+
+
 
 }

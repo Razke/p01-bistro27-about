@@ -82,6 +82,19 @@
                 android:textAppearance="?android:textAppearanceSmall"
                 android:textColor="#000000" />
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="16dp"
+                android:onClick="writeEmail"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/email"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
 
         </LinearLayout>
     </ScrollView>
