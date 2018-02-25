@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlePadding">16dp</dimen>
+    <dimen name="descrPadding">16dp</dimen>
+    <dimen name="drawablePadding">32dp</dimen>
+    <dimen name="iconPadding">16dp</dimen>
+    <dimen name="separatorMargin">8dp</dimen>
+    <dimen name="textLarge">22sp</dimen>
+    <dimen name="textMedium">18sp</dimen>
+    <dimen name="textSmall">14sp</dimen>
+</resources>

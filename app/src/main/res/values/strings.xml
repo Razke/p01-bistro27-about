@@ -6,4 +6,5 @@
     <string name="website_url">https://bistro27.ro/</string>
     <string name="phone">+40 727 828 501</string>
     <string name="email">bistro27pitesti@gmail.com</string>
+    <string name="buttonCaps">false</string>
 </resources>

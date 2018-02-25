@@ -25,75 +25,114 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="16dp"
+                android:paddingLeft="@dimen/titlePadding"
+                android:paddingRight="@dimen/titlePadding"
+                android:paddingTop="@dimen/titlePadding"
                 android:text="@string/title"
-                android:textAppearance="?android:textAppearanceLarge"
-                android:textColor="#ff4314"
+                android:textColor="@color/titleMain"
+                android:textSize="@dimen/textLarge"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:padding="@dimen/descrPadding"
+                android:paddingBottom="0dp"
                 android:text="@string/description"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="#000000" />
+                android:textColor="@color/textMain"
+                android:textSize="@dimen/textMedium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/separatorMargin"
+                android:background="@color/separator" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_location"
-                android:drawablePadding="16dp"
+                android:drawablePadding="@dimen/drawablePadding"
                 android:onClick="openBrowser"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:paddingLeft="@dimen/iconPadding"
+                android:paddingRight="@dimen/iconPadding"
                 android:tag="@string/address_url"
                 android:text="@string/address"
-                android:textAppearance="?android:textAppearanceSmall"
-                android:textColor="#000000" />
+                android:textAllCaps="@string/buttonCaps"
+                android:textColor="@color/textMain"
+                android:textSize="@dimen/textSmall" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/separatorMargin"
+                android:layout_marginTop="@dimen/separatorMargin"
+                android:background="@color/separator" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_website"
-                android:drawablePadding="16dp"
+                android:drawablePadding="@dimen/drawablePadding"
                 android:onClick="openBrowser"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:paddingLeft="@dimen/iconPadding"
+                android:paddingRight="@dimen/iconPadding"
                 android:tag="@string/website_url"
                 android:text="@string/website_url"
-                android:textAppearance="?android:textAppearanceSmall"
-                android:textColor="#000000" />
+                android:textAllCaps="@string/buttonCaps"
+                android:textColor="@color/textMain"
+                android:textSize="@dimen/textSmall" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/separatorMargin"
+                android:layout_marginTop="@dimen/separatorMargin"
+                android:background="@color/separator" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_phone"
-                android:drawablePadding="16dp"
+                android:drawablePadding="@dimen/drawablePadding"
                 android:onClick="dialPhone"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:paddingLeft="@dimen/iconPadding"
+                android:paddingRight="@dimen/iconPadding"
                 android:text="@string/phone"
-                android:textAppearance="?android:textAppearanceSmall"
-                android:textColor="#000000" />
+                android:textAllCaps="@string/buttonCaps"
+                android:textColor="@color/textMain"
+                android:textSize="@dimen/textSmall" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/separatorMargin"
+                android:layout_marginTop="@dimen/separatorMargin"
+                android:background="@color/separator" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_email"
-                android:drawablePadding="16dp"
+                android:drawablePadding="@dimen/drawablePadding"
                 android:onClick="writeEmail"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
+                android:paddingLeft="@dimen/iconPadding"
+                android:paddingRight="@dimen/iconPadding"
                 android:text="@string/email"
-                android:textAppearance="?android:textAppearanceSmall"
-                android:textColor="#000000" />
+                android:textAllCaps="@string/buttonCaps"
+                android:textColor="@color/textMain"
+                android:textSize="@dimen/textSmall" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/separatorMargin"
+                android:layout_marginTop="@dimen/separatorMargin"
+                android:background="@color/separator" />
 
 
         </LinearLayout>
