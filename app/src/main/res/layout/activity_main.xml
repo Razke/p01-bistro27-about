@@ -1,82 +1,88 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_poster" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:src="@drawable/img_poster" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="@string/title"
-            android:textAppearance="?android:textAppearanceLarge"
-            android:textColor="#ff4314"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="8dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:text="@string/description"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="#000000" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:drawableLeft="@drawable/ic_location"
-            android:drawablePadding="16dp"
-            android:onClick="openBrowser"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:tag="@string/address_url"
-            android:text="@string/address"
-            android:textAppearance="?android:textAppearanceSmall"
-            android:textColor="#000000" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:drawableLeft="@drawable/ic_website"
-            android:drawablePadding="16dp"
-            android:onClick="openBrowser"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:tag="@string/website_url"
-            android:text="@string/website_url"
-            android:textAppearance="?android:textAppearanceSmall"
-            android:textColor="#000000" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:drawableLeft="@drawable/ic_phone"
-            android:drawablePadding="16dp"
-            android:onClick="dialPhone"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:text="@string/phone"
-            android:textAppearance="?android:textAppearanceSmall"
-            android:textColor="#000000" />
+            android:orientation="vertical">
 
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/title"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#ff4314"
+                android:textStyle="bold" />
 
-</ScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/description"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawablePadding="16dp"
+                android:onClick="openBrowser"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:tag="@string/address_url"
+                android:text="@string/address"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:drawableLeft="@drawable/ic_website"
+                android:drawablePadding="16dp"
+                android:onClick="openBrowser"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:tag="@string/website_url"
+                android:text="@string/website_url"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="16dp"
+                android:onClick="dialPhone"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/phone"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
