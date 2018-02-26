@@ -1,7 +1,7 @@
 # p01-bistro27-about
 Objective: design and implement a single screen app that displays information about a fictional small business.
 
-![My Project](https://i.imgur.com/EQFRl5L.jpg)
+![My Project](https://i.imgur.com/EQFRl5L.jpg){:height="50%" width="50%"}
 
 ## Resources used in this project
 *Might've missed a few; also sorry Udacity, I think I should've known some of these from the courses; gonna do that [recap](https://youtu.be/NpDXXjClErk?t=12m25s)*
@@ -54,7 +54,7 @@ Objective: design and implement a single screen app that displays information ab
 
 #
 
-* [Github basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text) - Readception.md
+* [Github basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text) - READCEPTION.md
 
 ## Reflections
 
