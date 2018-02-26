@@ -13,7 +13,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
@@ -23,7 +23,7 @@
 
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/titlePadding"
                 android:paddingRight="@dimen/titlePadding"
@@ -34,7 +34,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/descrPadding"
                 android:text="@string/description"
@@ -42,7 +42,7 @@
                 android:textSize="@dimen/textMedium" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="@dimen/descrPadding"
                 android:paddingLeft="@dimen/descrPadding"
@@ -52,7 +52,7 @@
                 android:textSize="@dimen/textMedium" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="@dimen/descrPadding"
                 android:paddingLeft="@dimen/descrPadding"
@@ -68,14 +68,14 @@
                 android:background="@color/separator" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_location"
                 android:drawablePadding="@dimen/drawablePadding"
+                android:gravity="left|center_vertical"
                 android:onClick="openBrowser"
                 android:paddingLeft="@dimen/iconPadding"
-                android:paddingRight="@dimen/iconPadding"
                 android:tag="@string/address_url"
                 android:text="@string/address"
                 android:textAllCaps="@string/buttonCaps"
@@ -90,14 +90,14 @@
                 android:background="@color/separator" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_website"
                 android:drawablePadding="@dimen/drawablePadding"
+                android:gravity="left|center_vertical"
                 android:onClick="openBrowser"
                 android:paddingLeft="@dimen/iconPadding"
-                android:paddingRight="@dimen/iconPadding"
                 android:tag="@string/website_url"
                 android:text="@string/website_url"
                 android:textAllCaps="@string/buttonCaps"
@@ -112,14 +112,14 @@
                 android:background="@color/separator" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_phone"
                 android:drawablePadding="@dimen/drawablePadding"
+                android:gravity="left|center_vertical"
                 android:onClick="dialPhone"
                 android:paddingLeft="@dimen/iconPadding"
-                android:paddingRight="@dimen/iconPadding"
                 android:text="@string/phone"
                 android:textAllCaps="@string/buttonCaps"
                 android:textColor="@color/buttonsText"
@@ -133,14 +133,14 @@
                 android:background="@color/separator" />
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:drawableLeft="@drawable/ic_email"
                 android:drawablePadding="@dimen/drawablePadding"
+                android:gravity="left|center_vertical"
                 android:onClick="writeEmail"
                 android:paddingLeft="@dimen/iconPadding"
-                android:paddingRight="@dimen/iconPadding"
                 android:text="@string/email"
                 android:textAllCaps="@string/buttonCaps"
                 android:textColor="@color/buttonsText"
