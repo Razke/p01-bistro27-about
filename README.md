@@ -1,10 +1,10 @@
 # p01-bistro27-about
 Objective: design and implement a single screen app that displays information about a fictional small business.
 
-!(https://i.imgur.com/EQFRl5L.jpg)
+![My Project](https://i.imgur.com/EQFRl5L.jpg)
 
 ## Resources used in this project
-*might've missed a few; also sorry Udacity, I think I should've known some of these from the courses; gonna do that [recap](https://youtu.be/NpDXXjClErk?t=12m25s)*
+*Might've missed a few; also sorry Udacity, I think I should've known some of these from the courses; gonna do that [recap](https://youtu.be/NpDXXjClErk?t=12m25s)*
 
 *I promise, one day I will learn to use https://developer.android.com as a source of information*
 
@@ -59,4 +59,5 @@ Objective: design and implement a single screen app that displays information ab
 ## Reflections
 
 * ~~[MVP](https://www.google.com)~~[The Real MVP](https://stackoverflow.com/questions/tagged/android)
-* I learned that line spacing is ignored in this document, so here come the hashtags
+* Thank you [Atom](https://atom.io/) for making this easy to edit
+* I learned that line spacing is ignored in this document, so here come the hashtags *(they did the job!)*
