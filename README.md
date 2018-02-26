@@ -1,7 +1,7 @@
 # p01-bistro27-about
 Objective: design and implement a single screen app that displays information about a fictional small business.
 
-<img src="https://i.imgur.com/EQFRl5L.jpg" width="400" height="790">
+<img src="https://i.imgur.com/EQFRl5L.jpg" width="200" height="490">
 
 ## Resources used in this project
 *Might've missed a few; also sorry Udacity, I think I should've known some of these from the courses; gonna do that [recap](https://youtu.be/NpDXXjClErk?t=12m25s)*
@@ -59,5 +59,9 @@ Objective: design and implement a single screen app that displays information ab
 ## Reflections
 
 * ~~[MVP](https://www.google.com)~~[The Real MVP](https://stackoverflow.com/questions/tagged/android)
-* Thank you [Atom](https://atom.io/) for making this easy to edit
 * I learned that line spacing is ignored in this document, so here come the hashtags *(they did the job!)*
+
+#
+
+* ~~Thank you [Atom](https://atom.io/) for making this easy to edit~~
+* Use GitHub instead to edit your README.md, it has a preview, makes life easy. Had to learn the hard way. Sorry for the commit spam to anyone reading this. I hope you got [a few laughs](https://www.youtube.com/watch?v=MK6TXMsvgQg) at least.
