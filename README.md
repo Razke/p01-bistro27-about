@@ -1,7 +1,7 @@
 # p01-bistro27-about
 Objective: design and implement a single screen app that displays information about a fictional small business.
 
-<img src="https://i.imgur.com/EQFRl5L.jpg" width="100" height="100">
+<img src="https://i.imgur.com/EQFRl5L.jpg" width="400" height="790">
 
 ## Resources used in this project
 *Might've missed a few; also sorry Udacity, I think I should've known some of these from the courses; gonna do that [recap](https://youtu.be/NpDXXjClErk?t=12m25s)*
