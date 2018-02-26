@@ -56,6 +56,10 @@ Objective: design and implement a single screen app that displays information ab
 
 * [Github basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text) - READCEPTION.md
 
+#
+
+* [Mentor review](https://review.udacity.com/#!/reviews/1055608/shared) - link seems to not be working for now
+
 ## Reflections
 
 * ~~[MVP](https://www.google.com)~~[The Real MVP](https://stackoverflow.com/questions/tagged/android)

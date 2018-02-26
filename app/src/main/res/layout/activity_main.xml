@@ -6,14 +6,13 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
+        style="@style/PosterStyle"
         android:src="@drawable/img_poster" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fillViewport="true"
         android:orientation="vertical">
 
         <LinearLayout
@@ -23,27 +22,23 @@
 
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/NameStyle"
                 android:paddingLeft="@dimen/titlePadding"
                 android:paddingRight="@dimen/titlePadding"
                 android:paddingTop="@dimen/titlePadding"
                 android:text="@string/title"
                 android:textColor="@color/titleMain"
-                android:textSize="@dimen/textLarge"
-                android:textStyle="bold" />
+                android:textSize="@dimen/textLarge" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/DescrStyle"
                 android:padding="@dimen/descrPadding"
                 android:text="@string/description"
                 android:textColor="@color/textMain"
                 android:textSize="@dimen/textMedium" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/DescrStyle"
                 android:paddingBottom="@dimen/descrPadding"
                 android:paddingLeft="@dimen/descrPadding"
                 android:paddingRight="@dimen/descrPadding"
@@ -52,8 +47,7 @@
                 android:textSize="@dimen/textMedium" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/DescrStyle"
                 android:paddingBottom="@dimen/descrPadding"
                 android:paddingLeft="@dimen/descrPadding"
                 android:paddingRight="@dimen/descrPadding"
@@ -62,18 +56,14 @@
                 android:textSize="@dimen/textMedium" />
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+                style="@style/SeparatorStyle"
                 android:layout_marginBottom="@dimen/separatorMargin"
                 android:background="@color/separator" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                style="@style/ButtonStyle"
                 android:drawableLeft="@drawable/ic_location"
                 android:drawablePadding="@dimen/drawablePadding"
-                android:gravity="left|center_vertical"
                 android:onClick="openBrowser"
                 android:paddingLeft="@dimen/iconPadding"
                 android:tag="@string/address_url"
@@ -83,19 +73,15 @@
                 android:textSize="@dimen/textSmall" />
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+                style="@style/SeparatorStyle"
                 android:layout_marginBottom="@dimen/separatorMargin"
                 android:layout_marginTop="@dimen/separatorMargin"
                 android:background="@color/separator" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                style="@style/ButtonStyle"
                 android:drawableLeft="@drawable/ic_website"
                 android:drawablePadding="@dimen/drawablePadding"
-                android:gravity="left|center_vertical"
                 android:onClick="openBrowser"
                 android:paddingLeft="@dimen/iconPadding"
                 android:tag="@string/website_url"
@@ -105,19 +91,15 @@
                 android:textSize="@dimen/textSmall" />
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+                style="@style/SeparatorStyle"
                 android:layout_marginBottom="@dimen/separatorMargin"
                 android:layout_marginTop="@dimen/separatorMargin"
                 android:background="@color/separator" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                style="@style/ButtonStyle"
                 android:drawableLeft="@drawable/ic_phone"
                 android:drawablePadding="@dimen/drawablePadding"
-                android:gravity="left|center_vertical"
                 android:onClick="dialPhone"
                 android:paddingLeft="@dimen/iconPadding"
                 android:text="@string/phone"
@@ -126,19 +108,15 @@
                 android:textSize="@dimen/textSmall" />
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+                style="@style/SeparatorStyle"
                 android:layout_marginBottom="@dimen/separatorMargin"
                 android:layout_marginTop="@dimen/separatorMargin"
                 android:background="@color/separator" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                style="@style/ButtonStyle"
                 android:drawableLeft="@drawable/ic_email"
                 android:drawablePadding="@dimen/drawablePadding"
-                android:gravity="left|center_vertical"
                 android:onClick="writeEmail"
                 android:paddingLeft="@dimen/iconPadding"
                 android:text="@string/email"
@@ -147,8 +125,7 @@
                 android:textSize="@dimen/textSmall" />
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
+                style="@style/SeparatorStyle"
                 android:layout_marginBottom="@dimen/separatorMargin"
                 android:layout_marginTop="@dimen/separatorMargin"
                 android:background="@color/separator" />
