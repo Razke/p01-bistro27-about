@@ -1,5 +1,5 @@
 
-# Table of contents
+# Table of Contents
   1. [p01-bistro27-about](#p01-bistro27-about)
   2. [Resources used in this project](#resources-used-in-this-project)
   3. [Reflections](#reflections)
