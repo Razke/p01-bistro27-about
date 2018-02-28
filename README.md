@@ -75,6 +75,7 @@ Objective: design and implement a single screen app that displays information ab
 ***
 
 * ~~Thank you [Atom](https://atom.io/) for making this easy to edit~~
-* Use GitHub instead to edit your README.md, it has a preview, makes life easy. Had to learn the hard way. Sorry for the commit spam to anyone reading this. I hope you got [a few laughs](https://www.youtube.com/watch?v=MK6TXMsvgQg) at least.
+* ~~Use GitHub instead to edit your README.md, it has a preview, makes life easy. Had to learn the hard way. Sorry for the commit spam to anyone reading this. I hope you got [a few laughs](https://www.youtube.com/watch?v=MK6TXMsvgQg) at least.~~
+* Atom is still the better choice personally if you use the packages [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced), [markdown-scroll-sync](https://atom.io/packages/markdown-scroll-sync), [markdown-writer](https://atom.io/packages/markdown-writer) and [markdown-pdf](https://atom.io/packages/markdown-pdf). It's not called "a hackable text editor for the 21st Century" for nothing.
 
 [Back to Top](#table-of-contents)
