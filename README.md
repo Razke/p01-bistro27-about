@@ -1,5 +1,5 @@
 
-# Table of Contents
+#### Table of Contents
   1. [About](#about)
   2. [Resources used in this project](#resources-used-in-this-project)
   3. [Reflections](#reflections)
