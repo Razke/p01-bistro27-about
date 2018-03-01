@@ -1,10 +1,10 @@
 
 # Table of Contents
-  1. [p01-bistro27-about](#p01-bistro27-about)
+  1. [About](#about)
   2. [Resources used in this project](#resources-used-in-this-project)
   3. [Reflections](#reflections)
 
-# p01-bistro27-about
+# About
 Objective: design and implement a single screen app that displays information about a fictional small business.
 
 <img src="https://i.imgur.com/EQFRl5L.jpg" width="200" height="490">
@@ -26,6 +26,14 @@ Objective: design and implement a single screen app that displays information ab
 
 ***
 
+* [Common Android Views Cheat Sheet](https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view)
+* [Layout Cheat Sheet](https://s3.amazonaws.com/video.udacity-data.com/topher/2016/June/576abcfc_layout-cheat-sheet/layout-cheat-sheet.pdf)
+* [Material Design Color palette ](https://material.io/guidelines/style/color.html#color-color-palette)
+* [Material Design Metrics & keylines](https://material.io/guidelines/layout/metrics-keylines.html)
+* [Image Asset Studio](https://developer.android.com/studio/write/image-asset-studio.html)
+* [Google Font](https://fonts.google.com/) - Enriqueta-Bold.ttf for my App Launcher Icon
+* [How to add fonts into Asset Studio](https://stackoverflow.com/a/48972469/8651044) - Asked by yours truly
+
 * [Resizing ImageView in XML](https://stackoverflow.com/a/6268207/8651044)
 * [Add web link to ImageView](https://stackoverflow.com/a/20911479/8651044)
 * [android:drawable](https://stackoverflow.com/a/6671544/8651044)
@@ -35,23 +43,13 @@ Objective: design and implement a single screen app that displays information ab
 ***
 
 * [How to set entire application in portrait mode only](https://stackoverflow.com/a/9784269/8651044) - Note: I used ActivityInfo.SCREEN_ORIENTATION_NOSENSOR
+* [How to disable action bar permanently](https://stackoverflow.com/a/44754842/8651044)
 
 ***
 
 * [Send Email Intent](https://stackoverflow.com/questions/8701634/send-email-intent) + [Answer](https://stackoverflow.com/a/8701718/8651044)
 * [Intent.EXTRA_EMAIL not populating the To field](https://stackoverflow.com/a/9097251/8651044)
 * [How to call phone number by android](https://stackoverflow.com/a/5551975/8651044) + [Intent.ACTION_DIAL](https://stackoverflow.com/a/13123613/8651044)
-* [How to disable action bar permanently](https://stackoverflow.com/a/44754842/8651044)
-
-***
-
-* [Common Android Views Cheat Sheet](https://drive.google.com/file/d/0B5XIkMkayHgRMVljUVIyZzNmQUU/view)
-* [Layout Cheat Sheet](https://s3.amazonaws.com/video.udacity-data.com/topher/2016/June/576abcfc_layout-cheat-sheet/layout-cheat-sheet.pdf)
-* [Material Design Color palette ](https://material.io/guidelines/style/color.html#color-color-palette)
-* [Material Design Metrics & keylines](https://material.io/guidelines/layout/metrics-keylines.html)
-* [Image Asset Studio](https://developer.android.com/studio/write/image-asset-studio.html)
-* [Google Font](https://fonts.google.com/) - Enriqueta-Bold.ttf for my App Launcher Icon
-* [How to add fonts into Asset Studio](https://stackoverflow.com/a/48972469/8651044) - Asked by yours truly
 
 ***
 
@@ -60,7 +58,7 @@ Objective: design and implement a single screen app that displays information ab
 
 ***
 
-* [Github basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text) - READCEPTION.md
+* [Markdown basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/#styling-text) - READCEPTION.md
 
 ***
 
