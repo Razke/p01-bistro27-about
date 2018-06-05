@@ -62,7 +62,7 @@ Objective: design and implement a single screen app that displays information ab
 
 ***
 
-* [Mentor review](https://review.udacity.com/#!/reviews/1055608/shared) - link seems to not be working for now
+* [Mentor review](https://review.udacity.com/#!/reviews/1055608/shared)
 
 ## Reflections
 
