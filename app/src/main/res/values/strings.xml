@@ -10,4 +10,5 @@
     <string name="phone">+40 727 828 501</string>
     <string name="email">bistro27pitesti@gmail.com</string>
     <string name="buttonCaps">false</string>
+    <string name="presentation_image">Presentation</string>
 </resources>

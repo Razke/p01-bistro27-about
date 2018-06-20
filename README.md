@@ -10,11 +10,6 @@ Objective: design and implement a single screen app that displays information ab
 <img src="https://i.imgur.com/EQFRl5L.jpg" width="200" height="490">
 
 ## Resources used in this project
-*Might've missed a few; also sorry Udacity, I think I should've known some of these from the courses; gonna do that [recap](https://youtu.be/NpDXXjClErk?t=12m25s)*
-
-*I promise, one day I will learn to use https://developer.android.com as a source of information*
-
-***
 
 * [Overview of Android Project Structure and Naming Conventions](https://medium.com/@mikelimantara/overview-of-android-project-structure-and-naming-conventions-b08f6d0b7291)
 * [A successful XML naming convention](https://jeroenmols.com/blog/2016/03/07/resourcenaming/)
@@ -53,8 +48,7 @@ Objective: design and implement a single screen app that displays information ab
 
 ***
 
-* [Connect ADB over WiFi without command prompt in Android Studio](https://www.youtube.com/watch?v=Sp6XgMMoTRQ)
-* [How can I connect to Android with ADB over TCP](https://stackoverflow.com/questions/2604727/how-can-i-connect-to-android-with-adb-over-tcp/44460975#44460975) - In case the previous option fails
+* [WIFI ADB ULTIMATE](https://plugins.jetbrains.com/plugin/9207-wifi-adb-ultimate) for debugging the app via wifi
 
 ***
 
@@ -64,16 +58,10 @@ Objective: design and implement a single screen app that displays information ab
 
 * [Mentor review](https://review.udacity.com/#!/reviews/1055608/shared)
 
-## Reflections
-
-* ~~[MVP](https://www.google.com)~~[The Real MVP](https://stackoverflow.com/questions/tagged/android)
-* ~~I learned that line spacing is ignored in this document, so here come the hashtags *(they did the job!)*~~
-* I discovered the horizontal rule *\*\*
-
 ***
 
-* ~~Thank you [Atom](https://atom.io/) for making this easy to edit~~
-* ~~Use GitHub instead to edit your README.md, it has a preview, makes life easy. Had to learn the hard way. Sorry for the commit spam to anyone reading this. I hope you got [a few laughs](https://www.youtube.com/watch?v=MK6TXMsvgQg) at least.~~
-* Atom is still the better choice personally if you use the packages [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced), [markdown-scroll-sync](https://atom.io/packages/markdown-scroll-sync), [markdown-writer](https://atom.io/packages/markdown-writer) and [markdown-pdf](https://atom.io/packages/markdown-pdf). It's not called "a hackable text editor for the 21st Century" for nothing.
+* [Atom](https://atom.io/) for editing README.md with the following packages:
+ [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced), [markdown-scroll-sync](https://atom.io/packages/markdown-scroll-sync), [markdown-writer](https://atom.io/packages/markdown-writer) and [markdown-pdf](https://atom.io/packages/markdown-pdf).
+## Reflections
 
 [Back to Top](#table-of-contents)

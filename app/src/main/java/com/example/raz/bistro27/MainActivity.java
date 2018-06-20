@@ -1,15 +1,12 @@
 package com.example.raz.bistro27;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.net.Uri;
-import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void writeEmail(View view) {
+
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("message/rfc822");
         intent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"bistro27pitesti@gmail.com"});
         startActivity(Intent.createChooser(intent, "Send Email"));
     }
-
 }

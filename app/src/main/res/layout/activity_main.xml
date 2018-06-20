@@ -7,6 +7,7 @@
 
     <ImageView
         style="@style/PosterStyle"
+        android:contentDescription="@string/presentation_image"
         android:src="@drawable/img_poster" />
 
     <ScrollView
@@ -19,7 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <TextView
                 style="@style/NameStyle"
@@ -129,8 +129,6 @@
                 android:layout_marginBottom="@dimen/separatorMargin"
                 android:layout_marginTop="@dimen/separatorMargin"
                 android:background="@color/separator" />
-
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
