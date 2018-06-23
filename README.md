@@ -7,6 +7,8 @@
 # About
 Objective: design and implement a single screen app that displays information about a fictional small business.
 
+NOTE: this app uses [implicit intents](https://developer.android.com/guide/components/intents-filters#ExampleSend) that are outside the scope of this project, therefore not necessary for this project.
+
 <img src="https://i.imgur.com/EQFRl5L.jpg" width="200" height="490">
 
 ## Resources used in this project
